@@ -21,8 +21,31 @@
     
 }
 
-.calculator,.display {
+.calculator,.display,.numbers,.operators{
     border-style: double;
     border-radius: 5px;
     border-color: black;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+
+    width: 526px;
+    gap:5px;
+}
+
+.numbers,.operators{
+    flex-direction: row;
+    height: 400px;
+}
+.numbers{
+    display: flex;
+    flex: 200;
+    
+}
+.operators{
+    display: flex;
+    flex: 100;
+    
 }
