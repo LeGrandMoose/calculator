@@ -36,16 +36,37 @@
 }
 
 .numbers,.operators{
-    flex-direction: row;
+    
     height: 400px;
+    
 }
 .numbers{
-    display: flex;
+    
     flex: 200;
+    justify-content: center;
     
 }
 .operators{
-    display: flex;
-    flex: 100;
     
+    flex: 100;
+    justify-content: center;
+    
+}
+
+.numRow,.opRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+    /* flex:110; */
+}
+
+.regularButton {
+    flex-basis:40%;
+    height: 72px;
+   
+}
+
+.largeButton{
+    flex-basis: 100%;
+    height: 72px;
 }
