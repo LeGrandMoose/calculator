@@ -18,6 +18,7 @@
 
     display: flex;
     justify-content: right;
+    min-height: 20px;
     
 }
 
@@ -36,34 +37,29 @@
 }
 
 .numbers,.operators{
-    
     height: 400px;
-    
 }
 .numbers{
-    
     flex: 200;
     justify-content: center;
-    
 }
 .operators{
-    
     flex: 100;
     justify-content: center;
-    
 }
 
 .numRow,.opRow {
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
+    padding: 5px;
     /* flex:110; */
 }
 
 .regularButton {
     flex-basis:40%;
     height: 72px;
-   
+    
 }
 
 .largeButton{
